@@ -583,6 +583,9 @@ a.seo-button:hover {
   display: inline-block;
   margin-left: 16px;
 }
+.minus{
+  margin-top: 10px;
+}
 a.dtbtn {
   -moz-user-select: none;
   background: #0c5adb;
@@ -642,16 +645,19 @@ a.dtbtn.up:hover {
 .techno_nav_manu .logo_img img{
   height: 3.4em;
  border-radius: 30px;
+ margin: -20px 0 15px 0;
   
   
 }
 #footer_logo{
   height: 5.4em;
-  border-radius: 30px;
+  border-radius: 50px;
 }
 .techno_nav_manu .main_sticky img{
   height: 3.4em;
   mix-blend-mode:screen;
+  margin: -10px 0 15px 0;
+ 
   
 }
 /* ====== Style 2 ====== */
@@ -749,160 +755,29 @@ a.cart:after {
 --<	Techno Slider Area Css -->
 ======================================================*/
 .slider1 {
-  background-image: url(assets/images/slider/slider-1.png);
+  background-image: url(assets/images/printerbanner.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 900px;
 }
 .slider2 {
-  background-image: url(assets/images/slider/slider-2.png);
+  background-image: url(assets/images/printerbanner.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 900px;
+  filter: hue-rotate();
 }
+
+
 .slider3 {
-  background-image: url(assets/images/slider/slider-3.png);
+  background-image: url(assets/images/printerbanner.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 900px;
-}
-.slider4 {
-  background-image: url(assets/images/slider/slider-5.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-}
-.slider5 {
-  background-image: url(assets/images/slider/slider-8.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-}
-.slider6 {
-  background-image: url(assets/images/slider/slider-4.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-  position: relative;
-}
-.slider7 {
-  background-image: url(assets/images/slider/slider-6.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-  position: relative;
-}
-.slider8 {
-  background-image: url(assets/images/slider/slider-9.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-  position: relative;
-}
-.slider9 {
-  background-image: url(assets/images/slider/slider-11.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-  position: relative;
-}
-.slider9 {
-  background-image: url(assets/images/slider/slider-11.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-  position: relative;
-}
-.slider10 {
-  background-image: url(assets/images/slider/slider-12.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 1050px;
-  position: relative;
-}
-.slider11 {
-  background-image: url(assets/images/slider/slider13.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 800px;
-  position: relative;
-}
-.slider12 {
-  background-image: url(assets/images/slider/slider14.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 800px;
-  position: relative;
-}
-.slider13 {
-  background-image: url(assets/images/odoo.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-  position: relative;
-}
-.slider14 {
-  background-image: url(assets/images/odoo2.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
-  position: relative;
-}
-
-.slider15 {
-  background-image: url(assets/images/slider/hero-bg.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 950px;
-  position: relative;
-}
-.slider16 {
-  background-image: url(assets/images/slider/seo-bg.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 950px;
-  position: relative;
-}
-.slider17 {
-  background: url(assets/images/slider/innsurance-bg.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 1050px;
-  position: relative;
-}
-.slider18 {
-  background: url(assets/images/slider/hero-bg1.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 950px;
-  position: relative;
-}
-
-.slider19 {
-  background-image: url(assets/images/slider/software-hero-bg.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
+  
 }
 
 /*hero thumb*/
@@ -2565,6 +2440,39 @@ a.em-active-button:hover {
   position: relative;
   margin-bottom: -100px;
 }
+#service{
+  position: absolute;
+  z-index: 5;
+  transition:3s ease infinite;
+}
+#contact
+{
+  position: relative;
+  padding-top: 8rem;
+  margin: 3rem 0;
+  transition: 3s ease-in-out linear ;
+  
+
+}
+
+.closed1{
+  background: none;
+  height: 2.3rem;
+  width: 2.3rem;
+  position: absolute;
+  top: 1%;
+  right: 1%;border: none;
+
+
+}
+.closed{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  padding-right: 5px;
+  font-size: 2rem;
+  color: white;
+}
 /*====================================================
 --<	Techno Landing area Css -->
 ======================================================*/
@@ -2741,6 +2649,7 @@ a.em-active-button:hover {
   font-size: 16px;
   padding: 10px 0 15px;
 }
+
 /*style upper*/
 .upper.section_sub_title1 h6 {
   letter-spacing: 0;
@@ -5306,6 +5215,17 @@ span.fill.my-class2 {
   text-align: center;
   font-size: 35px;
 }
+.sky{
+  background: #b9efef40;
+}
+.spl img{
+  height: 9.4rem;
+  margin-left: -20px;
+  
+}
+.ml-f{
+  margin-left: 20px;
+}
 .service_style_one_title h4 {
   font-weight: 700;
   color: #0c5adb;
@@ -5412,7 +5332,7 @@ span.fill.my-class2 {
   position: relative;
   margin-bottom: -28px;
 }
-.service_style_three_bt_icon a {
+.service_style_three_bt_icon button {
   width: 55px;
   height: 55px;
   border-radius: 100%;
@@ -5754,6 +5674,12 @@ span.fill.my-class2 {
   position: relative;
   z-index: 1;
 }
+.div-flex{
+  display: flex;
+  
+  
+}
+
 .single_service_style_eleven::before {
   position: absolute;
   left: 0;
@@ -11695,7 +11621,8 @@ p.seo-text1 {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .single_contact_abs_thumb img {
-  width: 100%;
+  width:60%;
+  margin-left: 10%;
 }
 .app .form_box textarea {
   height: 170px;
@@ -14682,6 +14609,10 @@ span.flaticon-multiply i {
     transform: rotate(360deg) translate(30px);
   }
 }
+.brc{
+  border-radius: 10px;
+}
+
 
 .loader-wrapper .loder-section {
   position: fixed;

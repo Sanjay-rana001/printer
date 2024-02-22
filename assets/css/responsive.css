@@ -763,6 +763,9 @@
   .owl-next {
     display: none;
   }
+  .div-flex{
+    display: grid;
+  }
   .slider_text_inner h1 {
     font-size: 50px !important;
   }
@@ -3525,4 +3528,12 @@
     top: -112px;
     left: -6px;
   }
+}
+@media (min-width: 100px) and (max-width: 1024px) {
+.div-flex{
+  display: grid;
+}
+.ml-f{
+  margin-left: -20px;
+}
 }
